@@ -1,0 +1,27 @@
+{
+  "name": "lmp-000001-canary-sub-test-01",
+  "version": "1.0.0",
+  "environment": "canary",
+  "subscription_billing_scope": "/providers/Microsoft.Billing/billingAccounts/6893008/enrollmentAccounts/337743",
+  "subscription_workload": "DevTest",
+  "application_owner": "lsmith-cld@lmsp0.onmicrosoft.com",
+  "subtype": "default_offline",
+  "subtype_parameters": {
+    "location": "uksouth",
+    "tags": {},
+    "management_group_id": "lmsp0-canary-public",
+    "groups": {
+      "lmp-000001-canary-sub-test-01-Reader": {
+        "members": [
+          "lsmith-cld@lmsp0.onmicrosoft.com"
+        ],
+        "role": "Reader"
+      }
+    },
+    "service_principals": {
+      "lmp-000001-canary-sub-test-01-Owner": {
+        "role": "Owner"
+      }
+    }
+  }
+}
